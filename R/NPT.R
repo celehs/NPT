@@ -1,13 +1,13 @@
 #' Non-Parametric Transformation Model
 #'
-#' Implements the simplex algorithm for fitting NPT models. The computationally intensive part is written in C++.
+#' Implements the simplex algorithm for fitting non-parametric transformation models. The computationally intensive part is written in C++.
 #'
 #' @docType package
 #' @name NPT-package
 #' @aliases NPT
 #' @keywords package
 #' @useDynLib NPT
-#' @import Rcpp RcppArmadillo
+#' @import Rcpp
 NULL
 
 #' Objective function minimization

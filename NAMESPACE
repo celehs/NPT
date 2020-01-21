@@ -2,5 +2,4 @@
 
 export(npt.fit)
 import(Rcpp)
-import(RcppArmadillo)
 useDynLib(NPT)

@@ -4,8 +4,6 @@ Version: 0.1.0
 Author: Ming Yang
 Maintainer: Ming Yang <hustyangming@gmail.com>
 Description: Implements the simplex algorithm for fitting NPT models. The computationally intensive part is written in C++.
-URL: https://github.com/celehs/NPT
-BugReports: https://github.com/celehs/NPT/issues
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.0.2

@@ -6,6 +6,6 @@
 \alias{NPT}
 \title{Non-Parametric Transformation Model}
 \description{
-Implements the simplex algorithm for fitting NPT models. The computationally intensive part is written in C ++.
+Implements the simplex algorithm for fitting NPT models. The computationally intensive part is written in C++.
 }
 \keyword{package}

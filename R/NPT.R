@@ -1,6 +1,6 @@
-#' Non-Parametric Transformation (NPT) Model
+#' Non-Parametric Transformation Model
 #'
-#' Functions written in C++ to fit non-parametric transformation (NPT) model.
+#' Implements the simplex algorithm for fitting NPT models. The computationally intensive part is written in C ++.
 #'
 #' @docType package
 #' @name NPT-package
@@ -23,7 +23,7 @@ NULL
 #' @param nfun_max maximum number of function evaluations
 #' 
 #' @export
-obj.min <- function(coef, Z, y, u = NULL, v = NULL, tree = TRUE, 
+npt.fit <- function(coef, Z, y, u = NULL, v = NULL, tree = TRUE, 
                     nrep = 1, ftol = 1e-6, nfun_max = 5000) {
   n <- length(y)
   if (is.null(u)) u <- rep(1, n)

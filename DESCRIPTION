@@ -1,14 +1,11 @@
 Package: NPT
 Title: Non-Parametric Transformation Model
 Version: 0.1.0
-Authors@R: c(
-  person("Ming", "Yang", role = c("aut", "cre"), email = "hustyangming@gmail.com"),
-  person("Tianxi", "Cai", role = "aut")
-  )
-Description: Functions written in C++ to fit non-parametric transformation (NPT) model.
+Author: Ming Yang
+Maintainer: Ming Yang <hustyangming@gmail.com>
+Description: Implements the simplex algorithm for fitting NPT models. The computationally intensive part is written in C ++.
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.0.2
-LazyData: true
 Imports: Rcpp, RcppArmadillo
 LinkingTo: Rcpp, RcppArmadillo

@@ -4,8 +4,8 @@
 \name{NPT-package}
 \alias{NPT-package}
 \alias{NPT}
-\title{Non-Parametric Transformation (NPT) Model}
+\title{Non-Parametric Transformation Model}
 \description{
-Functions written in C++ to fit non-parametric transformation (NPT) model.
+Implements the simplex algorithm for fitting NPT models. The computationally intensive part is written in C ++.
 }
 \keyword{package}

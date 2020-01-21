@@ -7,5 +7,5 @@ Description: Implements the simplex algorithm for fitting NPT models. The comput
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.0.2
-Imports: Rcpp, RcppArmadillo
+Imports: Rcpp (>= 1.0.0), RcppArmadillo
 LinkingTo: Rcpp, RcppArmadillo
